@@ -1,0 +1,17 @@
+{
+  "name": "bot-sempak",
+  "version": "1.0.0",
+  "description": "Bot Budak Hanjakal",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "hanjakal"
+  ],
+  "author": "mjr_42",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^11.3.2"
+  }
+}
