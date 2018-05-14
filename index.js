@@ -27,6 +27,23 @@ client.on('ready', () => {
   console.log('I am ready!');
 });
 
+client.on('message', msg => {
+  if (msg.content === 'mabar') {
+    msg.reply('Kuy lah masa diem diem bae!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'eta') {
+    msg.reply('eta!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'Sayidal') {
+    msg.reply('Amin Lagi..... SYEKHHHHHH!');
+  }
+});
 
 client.on('message', message => {
   if (message.content === 'rhana') {
