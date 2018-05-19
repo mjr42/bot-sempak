@@ -34,8 +34,38 @@ client.on('message', msg => {
 });
 
 client.on('message', msg => {
+  if (msg.content === 'bacot') {
+    msg.reply('Eta Cungur jaga Goblog!');
+  }
+});
+
+client.on('message', msg => {
   if (msg.content === 'eta') {
     msg.reply('eta!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'hmm') {
+    msg.reply('Lambad sia Kukang!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'gas') {
+    msg.reply('Kuy lah!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'bumas') {
+    msg.reply('Hayu atuh wa!');
+  }
+});
+
+client.on('message', msg => {
+  if (msg.content === 'tes') {
+    msg.reply('Tas tes tas tes, jiga nu hajatan wae sia!');
   }
 });
 
