@@ -28,56 +28,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === 'mabar') {
-    msg.reply('Kuy lah masa diem diem bae!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'bacot') {
-    msg.reply('Eta Cungur jaga Goblog!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'eta') {
-    msg.reply('eta!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'hmm') {
-    msg.reply('Lambad sia Kukang!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'gas') {
-    msg.reply('Kuy lah!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'bumas') {
-    msg.reply('Hayu atuh wa!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'tes') {
-    msg.reply('Tas tes tas tes, jiga nu hajatan wae sia!');
-  }
-});
-
-client.on('message', msg => {
-  if (msg.content === 'Sayidal') {
-    msg.reply('Amin Lagi..... SYEKHHHHHH!');
-  }
-});
-
-client.on('message', message => {
-  if (message.content === 'rhana') {
-    message.channel.send('Goceng sia');
+  if (msg.content === 'ready') {
+    msg.reply('Go!');
   }
 });
 
