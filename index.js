@@ -9,6 +9,7 @@
 
 const Discord = require('discord.js');
 const client = new Discord.Client();
+bot.login(key.token);
 
 client.on('ready', () => {
   console.log(`Logged in as ${client.user.tag}!`);
