@@ -1,4 +1,4 @@
-//const botconfig = require("./botconfig.json");
+//const botconfig = require("https://room42.site/token/botconfig.json");
 //const bot = new Discord.Client({disableEveryone: true});
 //bot.on("ready", async () => {
 //  console.log(`${bot.user.username} in online`);
